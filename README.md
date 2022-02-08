@@ -1,27 +1,48 @@
-# AngularStructure
+## Our project :: Blog website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# the core of the application (core module)
 
-## Code scaffolding
+    ****something which is specific to the application itself, deployment, API, and the Developer****
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    1- services
+        * login.service.ts
+        * auth.service.ts
+        * base.service.ts
 
-## Build
+    2- pipes
+        * toUpperCase.pipe.ts
+        * any custom pipes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    3- guards
+        * auth.guard.ts
+        * leave-form.guard.ts
+        * load-modules.guard.ts
 
-## Running unit tests
+    4- interceptors
+        * token.interceptor.ts
+        * add-headers.interceptor.ts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    5- interfaces
+        * all domain interfaces (Users, blogs, etc...)
 
-## Running end-to-end tests
+    6- utils
+        obj-to-array.ts
+        add-item-to-object.ts
+        clone.ts
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# shared components cross the application (shared modules)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    **** reusable components (should be plugged in any application without any problem - with respect of dependancies) ****
+    1- form
+    2- buttons (primary, secondary)
+    3- dropdown
+    4- tabs
+    5- toast
+    6- spinner
+    7- table
+    8- pagination
+    9- cards
+    10- img
+    11- etc..

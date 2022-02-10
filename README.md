@@ -1,7 +1,5 @@
 ## Our project :: Blog website
 
-
-
 # the core of the application (core module)
 
     ****something which is specific to the application itself, deployment, API, and the Developer****

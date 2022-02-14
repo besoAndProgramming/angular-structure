@@ -87,10 +87,16 @@
 
 # Pages
 
-    1- login
-    2- register
-    3- home
-    4- blogs
-    5- Users
-    6- contact Us
-    7- About Me
+    1- lazy loaded modules
+    2- routing
+    3- no export for the modules
+    4- import for all neede feature modules
+    6- presenting componentes (orchestration)
+
+        1- login
+        2- register
+        3- home
+        4- blogs
+        5- Users
+        6- contact Us
+        7- About Me

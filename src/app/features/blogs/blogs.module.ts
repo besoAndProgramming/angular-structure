@@ -20,6 +20,7 @@ import { BlogHeaderImageComponent } from './components/blog-header-image/blog-he
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [BlogListComponent]
 })
 export class BlogsModule { }
